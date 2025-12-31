@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main style={{ padding: 40 }}>
-      <h1>ResumeAI App 🚀</h1>
-      <p>The app is working successfully.</p>
+      <h1>Resume AI App</h1>
+      <p>If you see this, deployment works 🎉</p>
     </main>
-  );
+  )
 }
