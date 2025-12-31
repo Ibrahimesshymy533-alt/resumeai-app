@@ -1,6 +1,11 @@
 "use client"
 
-import type { Link as LinkType } from "@/app/page"
+export type LinkType = {
+  title: string
+  description: string
+  href: string
+}
+
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import {
